@@ -1,0 +1,146 @@
+
+<html>
+    <head>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/all.min.css">
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+      
+      <nav class="sideNav ">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-10">
+                <ul class="fs-6 vh-100 py-5">
+                  <li class="py-2">
+                    <a class="text-decoration-none text-white slideShow" href="#home">Now playing</a>
+                  </li>
+                  <li class="py-2">
+                    <a class="text-decoration-none text-white slideShow " href="#details">Popular</a>
+                  </li>
+                  <li  class="py-2">
+                    <a class="text-decoration-none text-white slideShow " href="#duration">Top Rated</a>
+                  </li>
+                  <li  class="py-2">
+                    <a class="text-decoration-none text-white slideShow" href="#contect">Trending</a>
+                  </li>
+                  <li  class="py-2">
+                    <a class="text-decoration-none text-white slideShow" href="#contect">Upcoming</a>
+                  </li>
+                  <li  class="pt-2 pb-5 mb-5">
+                    <a class="text-decoration-none text-white slideShow" href="#contactUs">Contuct Us</a>
+                  </li>
+                  <li class="socialIcons py-5 my-5">
+                    <i class="fa-brands fa-facebook my-5"></i> 
+                    <i class="fa-brands fa-twitter my-5 ms-2"></i>
+                    <i class="fa-solid fa-globe mt-5 pt-5  ms-2"></i>
+                   <p class="text-muted me-3">Copyrightb © 2019 All Rights Reserved.</p>
+                  </li>
+                </ul>
+              
+            </div>
+            <div class="col-sm-2 text-center py-5">
+            
+                <img src="images/logo.png" alt="" class="logo text-center">
+                <div class="py-5 my-5 text-center">
+                  <i id="changeIcon" class="fa fa-align-justify py-5 my-5 text-center navIcon"></i>
+                </div>
+                <!-- fa-solid fa-xmark -->
+                <div class="navIcon2 py-5">
+                  <i class="fa-solid fa-globe d-block my-1"></i>
+                  <i class="fa-solid fa-share-nodes my-1"></i>
+                </div>
+               
+            
+            </div>
+          </div>
+        </div>
+      </nav>
+
+<header>
+ <div class="container w-50 m-auto my-5">
+  <div class="row">
+    <div class="col-md-6">
+      <input type="text" class="form-control searchInput text-center search1" placeholder="get movies by word...">
+    </div>
+    <div class="col-md-6">
+      <input type="text" class="form-control searchInput text-center search2" placeholder="search">
+    </div>
+  </div>
+ </div>
+</header>
+    
+<section id="moviesList">
+  <div class="container">
+    <div class="row " id="showingData">
+   
+      
+      
+    </div>
+  </div>
+</section>
+
+<footer id="contactUs" class="py-5">
+  <div class="mx-5 pb-3">
+    <h2 class="text-white text-center py-3">ContacUs...</h2>
+  </div>
+  
+    <form>
+<div class="container w-75 m-auto">
+  <div class="row py-2">
+    <div class="col-md-6">
+      <input class="form-control searchInput text-center" id="name" placeholder="Enter Your Name">
+      <div class="alert alert-danger " id="alertName" role="alert">
+        Your Name is not valid
+      </div>
+    </div>
+    
+    <div class="col-md-6">
+      <input class="form-control searchInput text-center" id="email" placeholder="Enter Email">
+      <div class="alert alert-danger " id="alertEmail" role="alert">
+        Enter Valid Mail
+      </div>
+    </div>
+    
+  </div>
+  <div class="row  py-2">
+    <div class="col-md-6">
+      <input class="form-control searchInput text-center" id="phone" placeholder="Enter Phone">
+      <div class="alert alert-danger " id="alertPhone" role="alert">
+        Enter Valid Phone Number
+      </div>
+    </div>
+    <div class="col-md-6">
+      <input class="form-control searchInput text-center" id="age" placeholder="Enter Age">
+      <div class="alert alert-danger " id="alertAge" role="alert">
+        Enter Valid Age
+      </div>
+    </div>
+  </div>
+  <div class="row  py-2">
+    <div class="col-md-6">
+      <input class="form-control searchInput text-center" id="password" placeholder="Enter Password" type="password">
+      <div class="alert alert-danger " id="alertPassword" role="alert" >
+        Enter valid password *Minimum eight characters, at least one letter and one number:*
+      </div>
+    </div>
+    <div class="col-md-6">
+      <input class="form-control searchInput text-center" id="re-password" placeholder="Enter Re-password" type="password">
+      <div class="alert alert-danger " id="alertrRe-password" role="alert">
+        Enter valid Re-password correctly
+      </div>
+    </div>
+  </div>
+</div>
+     <div class="text-center py-3">
+      <button type="submit" class="btn btn-outline-danger">Submit</button> 
+     </div>
+    </form>
+</footer>
+
+        <script src="js/jquery-3.6.0.min.js"></script> 
+        <script src="Js/bootstrap.bundle.min.js"></script>
+        <script src="Js/main.js"></script>
+        
+    </body>
+</html>

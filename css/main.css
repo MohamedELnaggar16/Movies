@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+body{
+    background-color: black;
+}
+.searchInput{
+    border: 1px solid black;
+    border-bottom: 1px solid white;
+    background-color: black;
+}
+.sideNav{
+    position: fixed;
+    top:0px;
+    left: -25%;
+    z-index: 999;
+    color: white;
+    display: flex;
+    background-color: black;
+    width: 250px;
+}
+.sideNav a:hover{
+    color: red !important;
+    transition: all 1s !important;
+}
+.socialIcons i:hover{
+    color: red !important;
+    transition: all 1s !important;
+    cursor: pointer;
+}
+.col-sm-2{
+    background-color: white !important;
+    height: 100vh !important;
+}
+.logo{
+    width: 25px;
+    height: 40px;
+}
+.navIcon{
+    color: black;
+    font-weight: bolder;
+    font-size: 25px;
+}
+.navIcon:hover{
+    cursor: pointer;
+}
+.navIcon2{
+    color: black;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.navIcon2:hover{
+    cursor: pointer;
+}
+.getMoviesData{
+    position: relative;
+    overflow: hidden;
+}
+.getMoviesData img{
+    width: 100%;
+    height: 100%;
+}
+.layer{
+    background-color: rgba(255, 0, 0,0.5);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    transition: all 1s;
+}
+.getMoviesData:hover .layer{
+    top: 0px;
+}
+#alertName,#alertEmail,#alertPhone,#alertAge,#alertPassword,#alertrRe-password{
+    margin-top: 5px;
+    display: none;
+}
