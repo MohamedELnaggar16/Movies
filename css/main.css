@@ -35,10 +35,7 @@ body{
     background-color: white !important;
     height: 100vh !important;
 }
-.logo{
-    width: 25px;
-    height: 40px;
-}
+
 .navIcon{
     color: black;
     font-weight: bolder;
