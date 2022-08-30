@@ -50,7 +50,7 @@ function displayData(dataShow) {
       
       collectData +=
        `
-       <div class="col-12 col-md-4 py-2">
+       <div class="col-sm-4 py-2">
        <div class="getMoviesData">
          <img src="https://image.tmdb.org/t/p/original/${dataShow.results[i].poster_path}">
          <div class="layer">
