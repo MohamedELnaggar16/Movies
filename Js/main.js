@@ -54,9 +54,9 @@ function displayData(dataShow) {
        <div class="getMoviesData">
          <img src="https://image.tmdb.org/t/p/original/${dataShow.results[i].poster_path}">
          <div class="layer">
-           <h2 class="text-center text-white py-2"> ${dataShow.results[i].title} </h2>
-           <p class="text-center text-white py-2"> rate: ${dataShow.results[i].vote_average.toFixed(1)} </p>
-           <p class="text-center text-white py-2"> ${dataShow.results[i].release_date} </p>
+           <h2 class="text-center text-white py-5"> ${dataShow.results[i].title} </h2>
+           <p class="text-center text-white py-3"> rate: ${dataShow.results[i].vote_average.toFixed(1)} </p>
+           <p class="text-center text-white py-3"> ${dataShow.results[i].release_date} </p>
          </div>
        </div>
      </div>
