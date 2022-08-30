@@ -55,7 +55,6 @@ function displayData(dataShow) {
          <img src="https://image.tmdb.org/t/p/original/${dataShow.results[i].poster_path}">
          <div class="layer">
            <h2 class="text-center text-white py-2"> ${dataShow.results[i].title} </h2>
-           <p class="text-center text-white py-2 px-2"> ${dataShow.results[i].overview} </p>
            <p class="text-center text-white py-2"> rate: ${dataShow.results[i].vote_average.toFixed(1)} </p>
            <p class="text-center text-white py-2"> ${dataShow.results[i].release_date} </p>
          </div>
