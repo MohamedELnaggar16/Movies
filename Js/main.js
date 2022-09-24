@@ -95,37 +95,6 @@ function displayData(dataShow) {
 
  })
 
- $('.search2').keyup(function() {
-
-  currentUrl = 'https://api.themoviedb.org/3/search/movie?query=mad&api_key=eba8b9a7199efdcb0ca1f96879b83c44&language=en-';
-  getData(displayData);
-   let searchTxt =$('.search2').val();
-   let collectData = [];
-   for (let i = 0; i < outPut.results.length; i++) {
-      if (outPut.results[i].title.toLowerCase().includes(searchTxt.toLowerCase())){
-         collectData +=
-         `
-         <div class="col-md-4 py-2">
-         <div class="getMoviesData">
-           <img src="https://image.tmdb.org/t/p/original/${outPut.results[i].poster_path}">
-           <div class="layer">
-             <h2 class="text-center text-white py-5"> ${outPut.results[i].title} </h2>
-             <p class="text-center text-white py-3 px-3"> ${outPut.results[i].overview} </p>
-             <p class="text-center text-white py-3"> rate: ${outPut.results[i].vote_average.toFixed(1)} </p>
-             <p class="text-center text-white py-3"> ${outPut.results[i].release_date} </p>
-           </div>
-         </div>
-       </div>
-       `
-      }
-      
-   }
- 
-  $('#showingData').html(collectData);
-
-
- })
-
 
 $('#name').keyup(function(){
    nameRejex = /^[a-zA-Z\-]+$/;
